@@ -27,12 +27,12 @@ SECRET_KEY = 'django-insecure-hvtvgw3e+)9fglcerx*$p6y^zj!zo!+n#ap_h7*#7*zp10(r7%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','testing-estate.up.railway.app']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','testing2-estate.up.railway.app']
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost',  # Allow local development (non-secure)
     'https://localhost',  # Allow local development (secure, if needed)
-    'https://testing-estate.up.railway.app',  # Production URL
+    'https://testing2-estate.up.railway.app',  # Production URL
     'https://*.railway.app',  # Allow all subdomains of railway.app
 ]
 
